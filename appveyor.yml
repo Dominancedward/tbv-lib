@@ -1,0 +1,14 @@
+build: false
+
+install:
+  - pip install numpy
+  - pip install cython
+  - pip install coverage
+  - pip install nose
+  - pip install scipy
+  - pip install matplotlib
+  - pip install pytest
+  - pip install numexpr
+  
+test_script:
+- nosetests
