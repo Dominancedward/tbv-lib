@@ -9,6 +9,7 @@ install:
   - pip install matplotlib
   - pip install pytest
   - pip install numexpr
+  - pip install pycuda
   
 test_script:
 - nosetests
